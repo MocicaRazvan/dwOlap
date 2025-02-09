@@ -1,0 +1,19 @@
+package com.mocicarazvan.dwolap.dtos.keys;
+
+import com.mocicarazvan.dwolap.enums.CofetarieTip;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+@Builder
+public class Key10_4 {
+    private Long idClient;
+    private Long idCofetarie;
+    private String nume;
+    private String prenume;
+    private CofetarieTip cofetarieTip;
+}
