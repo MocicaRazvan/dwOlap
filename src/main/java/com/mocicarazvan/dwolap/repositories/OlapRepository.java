@@ -25,7 +25,6 @@ public class OlapRepository {
     private final JdbcClient jdbcClient;
     private final ConvertorFactory convertorFactory;
 
-    //todo schimba rangul in github
     public ChartDto<String> get10_1(
             Integer rankLimit
     ) {
@@ -427,7 +426,6 @@ public class OlapRepository {
 
     }
 
-    //todo in pdf add id cofeatarie la select
     public ChartDto<Key10_4> get104(
             Integer isGroupedByIdCofetarie,
             Long timpStart,
